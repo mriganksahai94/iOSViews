@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iOSViews_Tests' do
+  pod 'iOSViews', :path => '../'
+  
+  
+end
