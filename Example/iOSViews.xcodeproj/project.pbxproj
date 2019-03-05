@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		00269FE1EC1E1D224829083D /* Pods_iOSViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		574DB5B5E66CEC263B5C725A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		574DB5B5E66CEC263B5C725A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* iOSViews_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSViews_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FAAF8431795A318F7AF36CE /* Pods-iOSViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViews_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOSViews_Tests/Pods-iOSViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8F316DBC59D1B4C99D116B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F316DBC59D1B4C99D116B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		927C62632C9F9F97A5A8A812 /* Pods-iOSViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViews_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSViews_Tests/Pods-iOSViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C37A8A11D03A8643202E6BFF /* iOSViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSViews.podspec; path = ../iOSViews.podspec; sourceTree = "<group>"; };
+		C37A8A11D03A8643202E6BFF /* iOSViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSViews.podspec; path = ../iOSViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				927C62632C9F9F97A5A8A812 /* Pods-iOSViews_Tests.debug.xcconfig */,
 				6FAAF8431795A318F7AF36CE /* Pods-iOSViews_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
